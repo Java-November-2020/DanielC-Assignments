@@ -3,10 +3,10 @@ import java.util.Random;
 public class StringManipulator{
     //First Task
     public static String TrimAndConcat(String stringOne, String stringTwo) {
-        return stringOne.trim().concat(stringTwo.trim());
+        return stringOne.trim().concat(stiringTwo.trim());
     }
     
-
+    
     //Second Task
     public static Integer GetIndexOrNull(String input, char c) {
         return input.indexOf(c) != -1 ? input.indexOf(c) : null;
@@ -42,7 +42,5 @@ public class StringManipulator{
         
         return output;
     }
-
-
 
 }    
