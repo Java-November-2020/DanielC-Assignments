@@ -161,10 +161,15 @@ public class PuzzleJava{
         String [] alphab = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
         String [] tenStrings = new String [10];
         for(int i = 0; i < tenStrings.length; i++){
-            Collections.shuffle(Arrays.asList(alphab));
-            tenStrings[i] = alphab[0] + alphab[1] + alphab[2] + alphab[3] + alphab[4];
+            tenStrings[i] = GetRandomString(alphab);
         }
         System.out.println(Arrays.toString(tenStrings));
+    }
+
+    private static String GetRandomString(String[] alphabet)
+    {
+        Collections.shuffle(Arrays.asList(alphabet));
+        return alphabet[0] + alphabet[1] + alphabet[2] + alphabet[3] + alphabet[4];
     }
 
 }
