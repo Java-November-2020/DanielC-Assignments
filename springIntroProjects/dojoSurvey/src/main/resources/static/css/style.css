@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+
+
+background{
+	color:blue;
+}
+
+
+table {
+	border: solid black 1px;
+}
+
+input {
+  width: 10%;
+  padding: 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+
+p{
+	display: inline;
+}
