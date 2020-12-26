@@ -20,7 +20,7 @@
   	</div>
 
 	<div class="col-6 mx-auto">
-		<form action="/viewData" method="post" class="col m-3" style="border: solid black 1px">
+		<form action="/viewData" method="post" class="col m-3 border border-dark">
   			<div class="form-group row">
     			<label for="name" class="col-sm-1 m-2 mr-1 col-form-label">Name: </label>
     			<div class="col-sm-4">
@@ -58,8 +58,10 @@
     				</div>
   			</div>
   			<label for="comments">Comments (optional)</label><br>
-			<textarea id="comments" name="comments" rows="4" cols="94"></textarea> 
+			<textarea id="comments" name="comments" rows="4" cols="94"></textarea>
+			<div class="text-right my-3">
 			<button type="submit" class="btn btn-primary" value="submit">Submit</button>
+			</div>
 		</form>
 	</div>
 </body>
